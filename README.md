@@ -10,7 +10,7 @@ A hands-on series where I implement, train and analyze 10 landmark deep learning
 | 02 | [VGG-style CNN (ablation study)](02-vgg-cifar10) | Image classification / CIFAR-10 | Done | [Notebook](PASTE_KAGGLE_LINK_2) | 88.93% test acc (baseline: 78.79%) |
 | 03 | [ResNet: plain vs residual](03-resnet-cifar10) | Image classification / CIFAR-10 | Done | [Notebook](PASTE_KAGGLE_LINK_3) | 90.72% test acc (ResNet-18); ResNet-56 85.67% vs Plain-56 63.35% |
 | 04 | [EfficientNet transfer learning](04-efficientnet-plant-disease) | Plant disease classification | Done | [Notebook](https://www.kaggle.com/code/ebrahiminima/day-4-efficientnet-transfer-learning-pytorch-p) | 99.85% test acc (98.18% with only 5% of the data) |
-| 05 | U-Net | Segmentation | Planned | | |
+| 05 | [U-Net: brain MRI segmentation](05-unet-brain-mri) | Medical image segmentation / LGG MRI | Done | [Notebook](https://www.kaggle.com/code/ebrahiminima/day-5-u-net-from-scratch-pytorch-brain-mri-seg) | Test Dice 0.754 (patient-level split); a random slice split inflates it to 0.836 |
 | 06 | LSTM / GRU | Sentiment analysis / IMDB | Planned | | |
 | 07 | Seq2Seq + Attention | Machine translation | Planned | | |
 | 08 | Transformer / BERT | Text classification | Planned | | |
