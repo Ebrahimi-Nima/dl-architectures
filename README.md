@@ -12,7 +12,7 @@ A hands-on series where I implement, train and analyze 10 landmark deep learning
 | 04 | [EfficientNet transfer learning](04-efficientnet-plant-disease) | Plant disease classification | Done | [Notebook](https://www.kaggle.com/code/ebrahiminima/day-4-efficientnet-transfer-learning-pytorch-p) | 99.85% test acc (98.18% with only 5% of the data) |
 | 05 | [U-Net: brain MRI segmentation](05-unet-brain-mri) | Medical image segmentation / LGG MRI | Done | [Notebook](https://www.kaggle.com/code/ebrahiminima/day-5-u-net-from-scratch-pytorch-brain-mri-seg) | Test Dice 0.754 (patient-level split); a random slice split inflates it to 0.836 |
 | 06 | [RNN, LSTM & GRU: sentiment analysis](06-lstm-gru-imdb) | Sentiment analysis / IMDB | Done | [Notebook](https://www.kaggle.com/code/ebrahiminima/day-6-rnn-lstm-gru-pytorch-imdb-sentiment) | 87.84% test acc (GRU); the vanilla RNN's gradient vanishes by ~10 orders of magnitude over 250 tokens |
-| 07 | Seq2Seq + Attention | Machine translation | Planned | | |
+| 07 | [Seq2Seq with attention](07-seq2seq-attention-multi30k) | Machine translation / Multi30k EN-DE | Done | [Notebook](https://www.kaggle.com/code/ebrahiminima/day-7-seq2seq-with-attention-pytorch-multi30k) | BLEU 32.8 with attention vs 19.1 without; general (Luong) attention collapses to near-one-hot weights |
 | 08 | Transformer / BERT | Text classification | Planned | | |
 | 09 | Autoencoder / VAE | Image reconstruction / generation | Planned | | |
 | 10 | DCGAN | Image generation | Planned | | |
